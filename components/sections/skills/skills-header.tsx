@@ -1,6 +1,6 @@
 import { useInView } from "@/hooks/use-in-view";
 
-export default function ServicesHeader() {
+export default function SkillsHeader() {
   const { ref, visible } = useInView();
   return (
     <div
@@ -19,16 +19,17 @@ export default function ServicesHeader() {
             text-violet-500
           "
         >
-          SERVICES
+          TECH STACK
         </span>
       </div>
 
-      <h2 className="text-4xl font-black lg:text-5xl">What I Can Build</h2>
+      <h2 className="text-4xl font-black lg:text-5xl">
+        Technologies I Work With
+      </h2>
 
       <p className="mx-auto mt-6 max-w-3xl leading-8 text-muted-foreground">
-        I build modern, responsive and business-focused web applications
-        designed to provide exceptional user experiences and real business
-        value.
+        Modern technologies, frameworks and tools used to build scalable,
+        responsive and high-quality digital experiences.
       </p>
     </div>
   );
