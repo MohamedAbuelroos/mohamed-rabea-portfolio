@@ -1,7 +1,18 @@
-import React from "react";
+import ContactCards from "./contact-cards";
+import ContactFooter from "./contact-footer";
+import ContactHeader from "./contact-header";
 
-const Contact = () => {
-  return <div className="h-screen">contact</div>;
-};
 
-export default Contact;
+export default function Contact() {
+  return (
+    <section id="contact" className="py-20">
+      <div className="mx-auto max-w-[1320px] px-6">
+        <ContactHeader />
+
+        <ContactCards />
+
+        <ContactFooter />
+      </div>
+    </section>
+  );
+}

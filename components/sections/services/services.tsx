@@ -5,7 +5,7 @@ import ServicesHeader from "./services-header";
 export default function Services() {
   const { ref, visible } = useInView();
   return (
-    <section id="services" className="py-28">
+    <section id="services" className="py-20">
       <div
       ref={ref}
         className={`mx-auto max-w-[1320px] px-6 transition-transform
