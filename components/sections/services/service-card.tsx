@@ -19,7 +19,7 @@ export default function ServiceCard({ service }: Props) {
     <article
       className="
         group
-        rounded-3xl
+        rounded-lg
         border
         border-border/50
         bg-card/50

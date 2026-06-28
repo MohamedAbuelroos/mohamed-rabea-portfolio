@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, GitMerge } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 import { Project } from "@/types/project";
 
@@ -144,7 +145,7 @@ function ProjectCard({ project }: Props) {
               "
             >
               Demo
-              <ArrowUpRight size={16} />
+              <ArrowUpRight size={18} />
             </Link>
 
             <Link
@@ -163,7 +164,7 @@ function ProjectCard({ project }: Props) {
                 hover:scale-105
               "
             >
-              <GitMerge size={16} />
+              <FaGithub size={18} />
               Code
             </Link>
           </div>
