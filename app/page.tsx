@@ -2,6 +2,7 @@
 import Navbar from "@/components/layout/navbar";
 import IntroLoader from "@/components/loader/introLoader";
 import About from "@/components/sections/about/about";
+import Experience from "@/components/sections/experience/experience";
 import Hero from "@/components/sections/hero/hero";
 import Projects from "@/components/sections/projects/projects";
 import Stats from "@/components/sections/stats/stats";
@@ -50,6 +51,7 @@ function Home() {
             <Stats />
             <About />
             <Projects />
+            <Experience />
           </main>
 
           {/* next sections */}
