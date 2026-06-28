@@ -12,6 +12,10 @@ export const navigationLinks = [
     href: "#experience",
   },
   {
+    label: "Services",
+    href: "#services",
+  },
+  {
     label: "Contact",
     href: "#contact",
   },
