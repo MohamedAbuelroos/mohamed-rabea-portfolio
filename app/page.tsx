@@ -5,6 +5,7 @@ import About from "@/components/sections/about/about";
 import Experience from "@/components/sections/experience/experience";
 import Hero from "@/components/sections/hero/hero";
 import Projects from "@/components/sections/projects/projects";
+import Services from "@/components/sections/services/services";
 import Stats from "@/components/sections/stats/stats";
 import { useEffect, useState } from "react";
 
@@ -52,6 +53,7 @@ function Home() {
             <About />
             <Projects />
             <Experience />
+            <Services />
           </main>
 
           {/* next sections */}
