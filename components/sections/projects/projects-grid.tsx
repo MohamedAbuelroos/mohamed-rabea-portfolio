@@ -10,8 +10,8 @@ function ProjectsGrid() {
       {projects.map((project, index) => (
         <div
           key={project.id}
-          className={` transition-transform 
-        ${visible ? "animate-project-fade" : "opacity-0"}
+          className={` transition-transform sm:opacity-100 md:opacity-0
+        ${visible ? "animate-project-fade" : ""}
         ${index === 0 ? "delay-100" : index === 1 ? "delay-500" : "delay-800"}
       `}
         >
