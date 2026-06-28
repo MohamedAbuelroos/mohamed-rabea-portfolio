@@ -18,7 +18,7 @@ const loadingTexts = [
   "Launching  Portfolio...",
 ];
 
-export default function IntroLoader({ onFinish }: IntroLoaderProps) {
+function IntroLoader({ onFinish }: IntroLoaderProps) {
   const [line1, setLine1] = useState("");
   const [line2, setLine2] = useState("");
   const [fade, setFade] = useState(false);
@@ -137,3 +137,5 @@ export default function IntroLoader({ onFinish }: IntroLoaderProps) {
     </div>
   );
 }
+
+export default IntroLoader

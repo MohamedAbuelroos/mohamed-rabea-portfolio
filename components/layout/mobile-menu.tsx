@@ -6,7 +6,7 @@ import { Menu, X, Download } from "lucide-react";
 import { navigationLinks } from "@/data/navigation";
 import Logo from "./logo";
 
-export default function MobileMenu() {
+function MobileMenu() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -107,3 +107,5 @@ export default function MobileMenu() {
     </>
   );
 }
+
+export default MobileMenu;

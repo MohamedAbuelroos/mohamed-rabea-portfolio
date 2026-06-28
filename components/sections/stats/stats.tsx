@@ -3,7 +3,7 @@ import { stats } from "@/data/stats";
 import StatsCard from "./stats-card";
 import { useInView } from "@/hooks/use-in-view";
 
-export default function Stats() {
+function Stats() {
   const { ref, visible } = useInView();
   const animationDelays = ["delay-150", "delay-300", "delay-500", "delay-700"];
   return (
@@ -37,3 +37,5 @@ export default function Stats() {
     </section>
   );
 }
+
+export default Stats

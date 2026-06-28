@@ -7,11 +7,7 @@ interface BrowserFrameProps {
   className?: string;
 }
 
-export default function BrowserFrame({
-  title,
-  children,
-  className,
-}: BrowserFrameProps) {
+function BrowserFrame({ title, children, className }: BrowserFrameProps) {
   return (
     <div
       className={cn(
@@ -65,3 +61,5 @@ export default function BrowserFrame({
     </div>
   );
 }
+
+export default BrowserFrame;

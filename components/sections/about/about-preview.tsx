@@ -3,7 +3,7 @@ import Image from "next/image";
 import FloatingBadge from "./floating-badge";
 import { useInView } from "@/hooks/use-in-view";
 
-export default function AboutPreview() {
+function AboutPreview() {
   const { ref, visible } = useInView();
 
   return (
@@ -55,3 +55,5 @@ export default function AboutPreview() {
     </div>
   );
 }
+
+export default AboutPreview;

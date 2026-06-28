@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 import { aboutFeatures } from "@/data/about";
 import { useInView } from "@/hooks/use-in-view";
 
-export default function AboutContent() {
+function AboutContent() {
   const { ref, visible } = useInView();
   return (
     <div
@@ -77,3 +77,4 @@ export default function AboutContent() {
     </div>
   );
 }
+export default AboutContent;

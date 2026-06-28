@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Frontend Developer specializing in React, Next.js, TypeScript, and modern web applications.",
 };
 
-export default function RootLayout({
+function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -33,3 +33,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootLayout;

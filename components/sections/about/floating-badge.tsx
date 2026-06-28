@@ -6,7 +6,7 @@ interface FloatingBadgeProps {
   className?: string;
 }
 
-export default function FloatingBadge({
+function FloatingBadge({
   title,
   subtitle,
   className,
@@ -38,3 +38,6 @@ export default function FloatingBadge({
     </div>
   );
 }
+
+
+export default FloatingBadge

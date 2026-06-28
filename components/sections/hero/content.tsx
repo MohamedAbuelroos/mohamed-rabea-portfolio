@@ -2,7 +2,7 @@ import { heroData } from "@/data/hero";
 import HeroBadge from "./badge";
 import HeroActions from "./actions";
 
-export default function HeroContent() {
+function HeroContent() {
   return (
     <div className="max-w-[660px] animate-fade-up">
       <HeroBadge />
@@ -25,3 +25,5 @@ export default function HeroContent() {
     </div>
   );
 }
+
+export default HeroContent;

@@ -2,7 +2,7 @@ import { CircleCheckBig } from "lucide-react";
 
 const features = ["Fast", "Responsive", "Accessible"];
 
-export default function FloatingCard() {
+function FloatingCard() {
   return (
     <div
       className="
@@ -36,3 +36,5 @@ export default function FloatingCard() {
     </div>
   );
 }
+
+export default FloatingCard;
