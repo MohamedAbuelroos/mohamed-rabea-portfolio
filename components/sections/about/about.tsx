@@ -3,7 +3,7 @@ import AboutPreview from "./about-preview";
 
 function About() {
   return (
-    <section id="about" className="py-18">
+    <section id="about" className="py-20">
       <div className="mx-auto max-w-[1320px] px-6 ">
         <div
           className="

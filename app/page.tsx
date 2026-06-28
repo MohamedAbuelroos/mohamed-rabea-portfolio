@@ -57,9 +57,8 @@ function Home() {
             <Experience />
             <Services />
             <Skills />
+            <Contact />
           </main>
-
-          {/* next sections */}
         </>
       )}
     </>
