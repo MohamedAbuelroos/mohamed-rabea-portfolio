@@ -4,6 +4,7 @@ import IntroLoader from "@/components/loader/introLoader";
 import About from "@/components/sections/about/about";
 import Contact from "@/components/sections/contact/contact";
 import Experience from "@/components/sections/experience/experience";
+import Footer from "@/components/sections/footer/footer";
 import Hero from "@/components/sections/hero/hero";
 import Projects from "@/components/sections/projects/projects";
 import Services from "@/components/sections/services/services";
@@ -59,6 +60,7 @@ function Home() {
             <Skills />
             <Contact />
           </main>
+          <Footer />
         </>
       )}
     </>
