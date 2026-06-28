@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { heroData } from "@/data/hero";
 
-export default function HeroActions() {
+function HeroActions() {
   return (
     <div className="mt-10 flex flex-wrap gap-4">
       <Button asChild size="lg" className="rounded-sm p-6">
@@ -28,3 +28,4 @@ export default function HeroActions() {
     </div>
   );
 }
+export default HeroActions;

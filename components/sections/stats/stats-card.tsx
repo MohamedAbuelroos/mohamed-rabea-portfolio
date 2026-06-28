@@ -6,11 +6,7 @@ interface StatsCardProps {
   icon: LucideIcon;
 }
 
-export default function StatsCard({
-  number,
-  label,
-  icon: Icon,
-}: StatsCardProps) {
+function StatsCard({ number, label, icon: Icon }: StatsCardProps) {
   return (
     <div
       className="
@@ -71,3 +67,5 @@ export default function StatsCard({
     </div>
   );
 }
+
+export default StatsCard;

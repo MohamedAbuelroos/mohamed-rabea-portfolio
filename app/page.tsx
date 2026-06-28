@@ -7,7 +7,7 @@ import Projects from "@/components/sections/projects/projects";
 import Stats from "@/components/sections/stats/stats";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+function Home() {
   const [showLoader, setShowLoader] = useState(() => {
     try {
       const visited = sessionStorage.getItem("portfolio-loader");
@@ -58,3 +58,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;

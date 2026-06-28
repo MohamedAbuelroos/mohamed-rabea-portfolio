@@ -13,7 +13,7 @@ import { projectPreviews } from "@/data/projects-preview";
 import FloatingCard from "./floating-card";
 import { useState } from "react";
 
-export default function HeroPreview() {
+function HeroPreview() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
@@ -62,3 +62,5 @@ export default function HeroPreview() {
     </div>
   );
 }
+
+export default HeroPreview;

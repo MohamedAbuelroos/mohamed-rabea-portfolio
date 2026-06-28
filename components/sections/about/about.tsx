@@ -1,7 +1,7 @@
 import AboutContent from "./about-content";
 import AboutPreview from "./about-preview";
 
-export default function About() {
+function About() {
   return (
     <section id="about" className="py-18">
       <div className="mx-auto max-w-[1320px] px-6 ">
@@ -13,7 +13,6 @@ export default function About() {
             lg:grid-cols-[500px_1fr]
           "
         >
-          
           <AboutPreview />
 
           <AboutContent />
@@ -22,3 +21,5 @@ export default function About() {
     </section>
   );
 }
+
+export default About;

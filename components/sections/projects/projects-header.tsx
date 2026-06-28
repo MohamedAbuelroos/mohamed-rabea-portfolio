@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export default function ProjectsHeader() {
+function ProjectsHeader() {
   return (
     <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
       <div>
@@ -41,3 +41,5 @@ export default function ProjectsHeader() {
     </div>
   );
 }
+
+export default ProjectsHeader;

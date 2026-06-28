@@ -8,7 +8,7 @@ import ThemeToggle from "@/components/theme/theme-toggle";
 import Logo from "./logo";
 import { navigationLinks } from "@/data/navigation";
 
-export default function Navbar() {
+function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function Navbar() {
           <ThemeToggle />
 
           <a
-          title="Download CV"
+            title="Download CV"
             href="/resume.pdf"
             download
             className=" hidden lg:inline-flex  h-10 items-center gap-2 rounded-md border border-border bg-card px-5 text-sm font-medium  duration-200 hover:-translate-y-0.5 hover:shadow-lg "
@@ -68,3 +68,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+export default Navbar;

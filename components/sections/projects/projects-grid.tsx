@@ -3,7 +3,7 @@ import { projects } from "@/data/projects";
 import ProjectCard from "./project-card";
 import { useInView } from "@/hooks/use-in-view";
 
-export default function ProjectsGrid() {
+function ProjectsGrid() {
   const { ref, visible } = useInView();
   return (
     <div ref={ref} className={`grid gap-4 md:grid-cols-2 xl:grid-cols-3 `}>
@@ -21,3 +21,5 @@ export default function ProjectsGrid() {
     </div>
   );
 }
+
+export default ProjectsGrid;

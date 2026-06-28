@@ -1,7 +1,7 @@
 import HeroContent from "./content";
 import HeroPreview from "./preview";
 
-export default function Hero() {
+function Hero() {
   return (
     <section
       id="home"
@@ -15,3 +15,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default Hero;

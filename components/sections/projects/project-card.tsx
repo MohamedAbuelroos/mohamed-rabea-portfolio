@@ -8,7 +8,7 @@ interface Props {
   project: Project;
 }
 
-export default function ProjectCard({ project }: Props) {
+function ProjectCard({ project }: Props) {
   return (
     <article
       className="
@@ -172,3 +172,5 @@ export default function ProjectCard({ project }: Props) {
     </article>
   );
 }
+
+export default ProjectCard;
