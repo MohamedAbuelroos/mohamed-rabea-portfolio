@@ -205,7 +205,7 @@ export default function ProjectCard({ project }: Props) {
     inline-flex
     items-center
     gap-2
-    rounded-xl
+    rounded-md
     bg-gradient-to-r
     from-violet-500
     to-cyan-500
@@ -238,7 +238,7 @@ export default function ProjectCard({ project }: Props) {
                 inline-flex
                 items-center
                 gap-2
-                rounded-xl
+                rounded-md
                 border
                 px-7
                 py-4
