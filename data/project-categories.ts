@@ -15,7 +15,7 @@ export const projectCategories = [
   },
 
   {
-    id: "landing-page",
+    id: "Landing-Page",
     label: "Landing Pages",
   },
 

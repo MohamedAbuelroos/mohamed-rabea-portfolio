@@ -110,7 +110,7 @@ export const projects: Project[] = [
       "React Router",
       "JWT",
       "SWR",
-      "Tailwind CSS",
+      "NodeJS",
     ],
 
     demo: "#",
@@ -226,14 +226,46 @@ export const projects: Project[] = [
   },
   {
     id: 6,
-    title: "Transfer KSA",
-    slug: "transfer-ksa",
-    image: "/images/projects/first-full-project.png",
+
+    title: "Mohamed Rabea Portfolio",
+
+    slug: "mohamed-rabea-portfolio",
+
+    category: "Landing-Page",
+
+    image: "/images/projects/sixth-full-project.png",
+
     description:
-      "Premium transfer booking platform for Saudi Arabia with multilingual support and modern booking experiences.",
-    technologies: ["React", "TypeScript", "MUI", "Tailwind"],
-    demo: "https://www.speedlinetransfers.com/",
+      "A modern developer portfolio built to showcase professional frontend projects, technical expertise, and real-world case studies through interactive experiences, smooth animations, and a performance-focused architecture.",
+
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Shadcn UI",
+      "Next Themes",
+      "Vercel",
+    ],
+
+    demo: "https://mohamed-rabea-portfolio.vercel.app",
+
     github: "#",
-    featured: false,
+
+    featured: true,
+
+    features: [
+      "Dark & light theme support",
+      "Animated user experience",
+      "Interactive project showcase",
+      "Responsive mobile-first design",
+      "Smooth scrolling navigation",
+      "Advanced project filtering",
+      "SEO optimization",
+      "Performance optimization",
+      "Reusable component system",
+      "Professional UI/UX design",
+    ],
   },
 ];
