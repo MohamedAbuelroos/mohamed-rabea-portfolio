@@ -2,10 +2,15 @@ export interface Project {
   id: number;
   title: string;
   slug: string;
-  description: string;
   image: string;
+  description: string;
   technologies: string[];
   demo?: string;
   github?: string;
   featured?: boolean;
+
+  private?: boolean;
+  category?: "Web-Application" | "Tools" | "Landing-Page" | "Ecommerce";
+
+  features?: string[];
 }

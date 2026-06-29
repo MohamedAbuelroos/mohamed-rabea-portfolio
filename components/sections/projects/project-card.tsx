@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, GitMerge } from "lucide-react";
+import { ArrowUpRight, Lock } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 import { Project } from "@/types/project";
@@ -51,22 +51,23 @@ function ProjectCard({ project }: Props) {
 
       {/* Screenshot */}
       <div className="relative h-[580px] overflow-hidden">
-        <Image
-          src={project.image}
-          alt={project.title}
-          fill
-          className="
+        <Link href={`/projects?id=${project.slug}`} className="block">
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            className="
             object-cover
             object-top
             transition-transform
             duration-700
             group-hover:scale-[1.03]
           "
-        />
+          />
 
-        {/* Hover Gradient */}
-        <div
-          className="
+          {/* Hover Gradient */}
+          <div
+            className="
             absolute
             inset-0
             bg-gradient-to-t
@@ -78,8 +79,8 @@ function ProjectCard({ project }: Props) {
             duration-500
             group-hover:opacity-100
           "
-        />
-
+          />
+        </Link>
         {/* Bottom Panel */}
         <div
           className="
@@ -91,7 +92,7 @@ function ProjectCard({ project }: Props) {
             md:translate-y-[75%]
             bg-background/80
             backdrop-blur-xl
-            p-6
+            p-5
             transition-all
             duration-400
             group-hover:translate-y-0
@@ -101,13 +102,21 @@ function ProjectCard({ project }: Props) {
           <h3 className="text-2xl font-bold">{project.title}</h3>
 
           {/* Description */}
-          <p className="mt-4 text-sm leading-7 text-muted-foreground">
+          <p
+            className="
+    mt-4
+    text-sm
+    leading-7
+    text-muted-foreground
+    line-clamp-2
+  "
+          >
             {project.description}
           </p>
 
           {/* Technologies */}
           <div className="mt-5 flex flex-wrap gap-2">
-            {project.technologies.map((tech) => (
+            {project.technologies.slice(0, 8).map((tech) => (
               <span
                 key={tech}
                 className="
@@ -128,24 +137,32 @@ function ProjectCard({ project }: Props) {
           {/* Buttons */}
           <div className="mt-6 flex gap-3">
             <Link
-              href={project.demo || "#"}
-              target="_blank"
+              href={project.private ? "#" : project.demo || "#"}
+              target={project.private ? undefined : "_blank"}
               className="
-                flex
-                items-center
-                gap-2
-                rounded-md
-                bg-foreground
-                px-5
-                py-3
-              
-                text-background
-                transition-transform
-                hover:scale-105
-              "
+    flex
+    items-center
+    gap-2
+    rounded-md
+    bg-foreground
+    px-5
+    py-3
+    text-background
+    transition-transform
+    hover:scale-105
+  "
             >
-              Demo
-              <ArrowUpRight size={18} />
+              {project.private ? (
+                <>
+                  <Lock size={16} />
+                  Private
+                </>
+              ) : (
+                <>
+                  Demo
+                  <ArrowUpRight size={18} />
+                </>
+              )}
             </Link>
 
             <Link
