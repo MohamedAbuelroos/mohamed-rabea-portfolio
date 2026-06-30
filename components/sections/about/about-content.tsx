@@ -37,24 +37,15 @@ function AboutContent() {
           xl:text-6xl
           "
       >
-        From Computer Technician to Frontend Engineering
+        Building Digital Experiences That Solve Real Problems
       </h2>
 
-      <p
-        className="
-          mt-6
-          max-w-[700px]
-          leading-8
-          text-muted-foreground
-          "
-      >
-        My journey in technology began with computer hardware and software
-        maintenance, where I discovered a passion for understanding how systems
-        work and solving real‑world problems.
-        <br />
-        Today, I specialize in building modern, responsive, user‑focused web
-        applications with React, Next.js, TypeScript, and cutting‑edge frontend
-        technologies.
+      <p className="mt-6 max-w-[700px] leading-8 text-muted-foreground">
+        I specialize in building modern web applications, business platforms and
+        digital experiences that combine clean design, performance and
+        real-world problem solving. My background in technical support and
+        business operations helps me approach every project with both
+        engineering precision and a strong focus on user needs.
       </p>
 
       <div className="mt-5 grid gap-6 md:grid-cols-2">

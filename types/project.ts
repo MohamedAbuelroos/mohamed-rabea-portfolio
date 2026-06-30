@@ -10,7 +10,7 @@ export interface Project {
   featured?: boolean;
 
   private?: boolean;
-  category?: "Web-Application" | "Tools" | "Landing-Page" | "Ecommerce";
+  category?: "Web-Application" | "Tools" | "Landing-Page" | "Business-Websites";
 
   features?: string[];
 }

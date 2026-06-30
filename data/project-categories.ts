@@ -10,6 +10,11 @@ export const projectCategories = [
   },
 
   {
+    id: "Business-Websites",
+    label: "Business Websites",
+  },
+
+  {
     id: "Tools",
     label: "Tools",
   },
@@ -17,10 +22,5 @@ export const projectCategories = [
   {
     id: "Landing-Page",
     label: "Landing Pages",
-  },
-
-  {
-    id: "ecommerce",
-    label: "E-Commerce",
   },
 ];

@@ -20,11 +20,11 @@ export default function ContactCard({ type, title, description }: Props) {
         border-border/50
         bg-card/50
         p-8
-        backdrop-blur-xl
-        transition-all
+    
+        transition-transform
         duration-300
         hover:-translate-y-2
-        hover:shadow-xl
+        
       "
     >
       <div
@@ -65,7 +65,7 @@ export default function ContactCard({ type, title, description }: Props) {
             font-medium
             text-white
             transition-transform
-            hover:scale-105
+            hover:scale-102
           "
         >
           {isWhatsapp ? "Start Conversation" : "Send Email"}

@@ -6,11 +6,7 @@ interface FloatingBadgeProps {
   className?: string;
 }
 
-function FloatingBadge({
-  title,
-  subtitle,
-  className,
-}: FloatingBadgeProps) {
+function FloatingBadge({ title, subtitle, className }: FloatingBadgeProps) {
   return (
     <div
       className={`
@@ -23,7 +19,6 @@ function FloatingBadge({
         px-6
         py-4
         shadow-xl
-        backdrop-blur-xl
         animate-loader-float
         ${className}
       `}
@@ -39,5 +34,4 @@ function FloatingBadge({
   );
 }
 
-
-export default FloatingBadge
+export default FloatingBadge;

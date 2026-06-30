@@ -1,8 +1,8 @@
 export const aboutFeatures = [
-  "Pixel-Perfect UI Implementation",
-  "Strong Problem‑Solving Mindset",
-  "Performance & Accessibility Focused",
+  "Business-Oriented Problem Solving",
+  "Modern React & Next.js Development",
   "Clean Architecture & Scalable Code",
-  "Creative Solutions to Complex Challenges",
-  "Responsive & Mobile-First Development",
+  "Performance & Accessibility Focused",
+  "Responsive & Mobile-First Design",
+  "Building Real-World Digital Solutions",
 ];

@@ -20,11 +20,11 @@ function ProjectCard({ project }: Props) {
         border
         border-border/50
         bg-card
-        shadow-lg
-        transition-all
+        
+        transition-transform
         duration-500
         hover:-translate-y-2
-        hover:shadow-xl
+      
       "
     >
       {/* Featured Badge */}
@@ -42,7 +42,7 @@ function ProjectCard({ project }: Props) {
             text-xs
             font-semibold
             text-white
-            shadow-lg
+            
           "
         >
           Featured
@@ -88,18 +88,29 @@ function ProjectCard({ project }: Props) {
             inset-x-0
             bottom-0
             z-20
-            translate-y-0
-            md:translate-y-[75%]
+          translate-y-[75%]
             bg-background/80
-            backdrop-blur-xl
+            backdrop-blur-sm
             p-5
-            transition-all
-            duration-400
+            transition-transform
+            duration-500
             group-hover:translate-y-0
           "
         >
           {/* Title */}
-          <h3 className="text-2xl font-bold">{project.title}</h3>
+          <Link
+            href={`/projects?id=${project.slug}`}
+            className="
+              flex
+              items-center
+              gap-3
+              transition-colors
+              hover:text-violet-500
+            "
+          >
+            <h3 className="text-2xl font-bold ">{project.title}</h3>
+            <ArrowUpRight size={20} />
+          </Link>
 
           {/* Description */}
           <p

@@ -7,7 +7,7 @@ function ProjectsGrid() {
   const { ref, visible } = useInView();
   return (
     <div ref={ref} className={`grid gap-4 md:grid-cols-2 xl:grid-cols-3 `}>
-      {projects.map((project, index) => (
+      {projects.slice(0,6).map((project, index) => (
         <div
           key={project.id}
           className={` transition-transform

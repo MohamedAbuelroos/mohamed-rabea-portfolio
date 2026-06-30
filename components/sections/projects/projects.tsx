@@ -8,10 +8,10 @@ function Projects() {
         <ProjectsHeader
           title="Featured Projects"
           description="
-    A selection of my recent work spanning
-    modern web applications, booking systems,
-    dashboards and digital experiences.
-  "
+A showcase of selected projects spanning
+business applications, booking platforms,
+enterprise dashboards and digital solutions.
+"
           showButton
         />
 

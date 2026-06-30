@@ -24,13 +24,13 @@ export default function ExperienceHeader() {
       </div>
 
       <h2 className="text-4xl font-black lg:text-5xl">
-        My Journey In Technology
+        My Journey in Technology
       </h2>
 
-      <p className="mx-auto mt-6 max-w-3xl text-muted-foreground leading-8">
-        From computer maintenance and travel operations to building modern web
-        applications, every step shaped the way I approach technology and
-        problem solving.
+      <p className="mx-auto mt-6 max-w-3xl leading-8 text-muted-foreground">
+        From computer maintenance to business platforms and modern web
+        applications, every step of my journey has been shaped by curiosity and
+        a passion for solving problems.
       </p>
     </div>
   );
