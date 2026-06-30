@@ -1,55 +1,46 @@
-import { FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaReact, FaGitAlt, FaGithub, FaDocker } from "react-icons/fa";
 
 import { RiNextjsFill } from "react-icons/ri";
 
 import {
   SiTypescript,
+  SiJavascript,
   SiTailwindcss,
   SiMui,
+  SiShadcnui,
   SiVercel,
-  SiFigma,
+  SiJira,
   SiVite,
+  SiFigma,
 } from "react-icons/si";
 
 export const skillGroups = [
   {
     title: "Frontend Core",
+
     items: [
       {
         name: "React",
         icon: FaReact,
       },
       {
-        name: "TypeScript",
-        icon: SiTypescript,
-      },
-      {
-        name: "Tailwind",
-        icon: SiTailwindcss,
-      },
-      {
-        name: "MUI",
-        icon: SiMui,
-      },
-    ],
-  },
-
-  {
-    title: "Frameworks",
-    items: [
-      {
         name: "Next.js",
         icon: RiNextjsFill,
       },
       {
-        name: "Vite",
-        icon: SiVite,
+        name: "TypeScript",
+        icon: SiTypescript,
+      },
+      {
+        name: "JavaScript (ES6+)",
+        icon: SiJavascript,
       },
     ],
   },
 
   {
-    title: "Tools",
+    title: "Tools & Workflow",
+
     items: [
       {
         name: "Git",
@@ -60,18 +51,53 @@ export const skillGroups = [
         icon: FaGithub,
       },
       {
-        name: "Figma",
-        icon: SiFigma,
+        name: "Visily",
+        icon: SiFigma, // temporary icon
+      },
+      {
+        name: "Vite",
+        icon: SiVite,
+      },
+      {
+        name: "Docker",
+        icon: FaDocker,
+      },
+      {
+        name: "Jira",
+        icon: SiJira,
+      },
+    ],
+  },
+  {
+    title: "Frameworks & UI",
+
+    items: [
+      {
+        name: "Tailwind CSS",
+        icon: SiTailwindcss,
+      },
+      {
+        name: "Material UI",
+        icon: SiMui,
+      },
+      {
+        name: "Shadcn/UI",
+        icon: SiShadcnui,
       },
     ],
   },
 
   {
-    title: "Deployment",
+    title: "Deployment & Automation",
+
     items: [
       {
         name: "Vercel",
         icon: SiVercel,
+      },
+      {
+        name: "Excel VBA",
+        icon: FaGitAlt, // temporary icon
       },
     ],
   },

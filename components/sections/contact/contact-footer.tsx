@@ -53,7 +53,8 @@ export default function ContactFooter() {
         {/* Social */}
         <div className="flex items-center gap-3">
           <Link
-            href="#"
+            target="_blank"
+            href="https://www.linkedin.com/in/mohamed-rabea255/"
             className="
               rounded-xl
               border
@@ -67,7 +68,8 @@ export default function ContactFooter() {
           </Link>
 
           <Link
-            href="#"
+            target="_blank"
+            href="https://github.com/MohamedAbuelroos"
             className="
               rounded-xl
               border
