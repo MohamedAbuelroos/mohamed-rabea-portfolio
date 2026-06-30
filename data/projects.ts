@@ -30,7 +30,7 @@ export const projects: Project[] = [
 
     demo: "https://toursvibe.com/en",
 
-    github: "#",
+    github: "https://github.com/moelashmawy/travel-frontend",
 
     featured: true,
 
@@ -49,6 +49,7 @@ export const projects: Project[] = [
       "Global state management",
     ],
   },
+
   {
     id: 2,
     title: "SpeedLine Transfers KSA",
@@ -69,7 +70,7 @@ export const projects: Project[] = [
 
     demo: "https://www.speedlinetransfers.com/",
 
-    github: "#",
+    github: "https://github.com/MohamedAbuelroos/speedline-transfers",
 
     featured: false,
 
@@ -115,7 +116,7 @@ export const projects: Project[] = [
 
     demo: "#",
 
-    github: "https://github.com/YOUR_USERNAME/travelist-dashboard",
+    github: "#",
 
     featured: false,
 
@@ -136,6 +137,7 @@ export const projects: Project[] = [
       "Business KPI dashboards",
     ],
   },
+
   {
     id: 4,
 
@@ -143,7 +145,7 @@ export const projects: Project[] = [
 
     slug: "clarity-factory",
 
-    category: "Web-Application",
+    category: "Business-Websites",
 
     image: "/images/projects/fourth-full-project.png",
 
@@ -163,7 +165,7 @@ export const projects: Project[] = [
 
     demo: "https://clarity-factory-three.vercel.app",
 
-    github: "https://github.com/YOUR_USERNAME/clarity-factory",
+    github: "https://github.com/MohamedAbuelroos/clarity-factory",
 
     featured: false,
 
@@ -182,8 +184,102 @@ export const projects: Project[] = [
       "Performance-focused implementation",
     ],
   },
+
   {
     id: 5,
+
+    title: "Transfer Signs Generator",
+
+    slug: "transfer-signs-generator",
+
+    category: "Tools",
+
+    image: "/images/projects/signs-converter.png",
+
+    description:
+      "A business automation tool developed for transfer operations companies that processes Excel manifests, filters transportation data by date, and generates structured export files used to automatically create driver-specific PDF transfer signs through Excel VBA automation.",
+
+    technologies: [
+      "React",
+      "TypeScript",
+      "Material UI",
+      "React Router",
+      "SheetJS",
+      "FileSaver",
+      "Excel VBA",
+    ],
+
+    demo: "#",
+
+    github: "#",
+
+    featured: false,
+
+    private: true,
+
+    features: [
+      "Excel file import and processing",
+      "Date-based transfer filtering",
+      "Transfer manifest management",
+      "Driver assignment grouping",
+      "Automated export generation",
+      "Excel VBA integration",
+      "PDF signs automation workflow",
+      "Driver folder organization",
+      "Authentication by access code",
+      "Business operations optimization",
+      "Bulk data processing",
+      "Transfer company workflow automation",
+    ],
+  },
+
+  {
+    id: 6,
+
+    title: "Mohamed Rabea Portfolio",
+
+    slug: "mohamed-rabea-portfolio",
+
+    category: "Web-Application",
+
+    image: "/images/projects/sixth-full-project.png",
+
+    description:
+      "A modern developer portfolio built to showcase professional frontend projects, technical expertise, and real-world case studies through interactive experiences, smooth animations, and a performance-focused architecture.",
+
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Shadcn UI",
+      "Next Themes",
+      "Vercel",
+    ],
+
+    demo: "https://mohamed-rabea-portfolio.vercel.app",
+
+    github: "https://github.com/MohamedAbuelroos/mohamed-rabea-portfolio",
+
+    featured: true,
+
+    features: [
+      "Dark & light theme support",
+      "Animated user experience",
+      "Interactive project showcase",
+      "Responsive mobile-first design",
+      "Smooth scrolling navigation",
+      "Advanced project filtering",
+      "SEO optimization",
+      "Performance optimization",
+      "Reusable component system",
+      "Professional UI/UX design",
+    ],
+  },
+
+  {
+    id: 7,
 
     title: "MRMovie",
 
@@ -207,7 +303,7 @@ export const projects: Project[] = [
 
     demo: "https://mrmovie.surge.sh/",
 
-    github: "#",
+    github: "https://github.com/MohamedAbuelroos/Movie-App",
 
     featured: false,
 
@@ -224,48 +320,206 @@ export const projects: Project[] = [
       "Local storage persistence",
     ],
   },
+
   {
-    id: 6,
+    id: 8,
 
-    title: "Mohamed Rabea Portfolio",
+    title: "Guest Confirmation System",
 
-    slug: "mohamed-rabea-portfolio",
+    slug: "guest-confirmation-system",
 
-    category: "Landing-Page",
+    category: "Tools",
 
-    image: "/images/projects/sixth-full-project.png",
+    image: "/images/projects/confirmation-tool.jpg",
 
     description:
-      "A modern developer portfolio built to showcase professional frontend projects, technical expertise, and real-world case studies through interactive experiences, smooth animations, and a performance-focused architecture.",
+      "A business automation platform developed for transfer companies that processes Excel manifests, displays guest transfer details, and generates personalized confirmation messages for each traveler, significantly reducing manual communication workflows.",
 
-    technologies: [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Shadcn UI",
-      "Next Themes",
-      "Vercel",
-    ],
+    technologies: ["JavaScript", "CSS", "SheetJS", "Local Storage"],
 
-    demo: "https://mohamed-rabea-portfolio.vercel.app",
+    demo: "#",
 
     github: "#",
 
-    featured: true,
+    private: true,
+
+    featured: false,
 
     features: [
-      "Dark & light theme support",
-      "Animated user experience",
-      "Interactive project showcase",
-      "Responsive mobile-first design",
-      "Smooth scrolling navigation",
-      "Advanced project filtering",
-      "SEO optimization",
-      "Performance optimization",
-      "Reusable component system",
-      "Professional UI/UX design",
+      "Excel manifest processing",
+      "Transfer data extraction",
+      "Guest confirmation automation",
+      "Personalized message generation",
+      "WhatsApp workflow integration",
+      "Transfer status management",
+      "Bulk guest processing",
+      "Business workflow automation",
+      "Data persistence",
+      "Operational efficiency tools",
+      "Transfer confirmation tracking",
+      "Real-time transfer management",
+    ],
+  },
+
+  {
+    id: 9,
+
+    title: "El Anod Pest Control",
+
+    slug: "el-anod-pest-control",
+
+    category: "Business-Websites",
+
+    image: "/images/projects/elanod-project.png",
+
+    description:
+      "A bilingual corporate website developed for a pest control and insect management company, featuring multilingual content, product showcases, equipment catalogs, and responsive business experiences tailored for commercial services.",
+
+    technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+
+    demo: "https://your-github-pages-link",
+
+    github: "https://github.com/MohamedAbuelroos/Elanod-Site",
+
+    featured: false,
+
+    features: [
+      "Arabic & English support",
+      "Responsive design",
+      "Corporate company profile",
+      "Products catalog",
+      "Equipment showcase",
+      "Business services presentation",
+      "Contact information sections",
+      "Multi-section landing experience",
+      "Mobile-friendly interface",
+      "Client-focused website structure",
+    ],
+  },
+
+  {
+    id: 10,
+
+    title: "Hexa Shop",
+
+    slug: "hexa-shop",
+
+    category: "Landing-Page",
+
+    image: "/images/projects/Hexa-shop.png",
+
+    description:
+      "A modern fashion e-commerce landing page designed for clothing brands, featuring product showcases, category exploration, promotional sections, and responsive shopping experiences.",
+
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Font Awesome",
+      "Google Fonts",
+    ],
+
+    demo: "https://mohamedabuelroos.github.io/Hexa-shop/",
+
+    github: "https://github.com/MohamedAbuelroos/Hexa-shop",
+
+    featured: false,
+
+    features: [
+      "Responsive e-commerce design",
+      "Men, women and kids sections",
+      "Product showcase cards",
+      "Category browsing",
+      "Promotional banners",
+      "Newsletter subscription",
+      "Modern shopping layout",
+      "Image galleries",
+      "Interactive navigation",
+      "Mobile-friendly experience",
+    ],
+  },
+
+  {
+    id: 11,
+
+    title: "Eatery Cafe",
+
+    slug: "eatery-cafe",
+
+    category: "Landing-Page",
+
+    image: "/images/projects/Eatery-cafe.png",
+
+    description:
+      "A modern restaurant and cafe landing page featuring chef showcases, food galleries, reservation sections, and customer-focused experiences designed for hospitality businesses.",
+
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Font Awesome",
+      "Google Fonts",
+    ],
+
+    demo: "https://mohamedabuelroos.github.io/Eatery-cafe/",
+
+    github: "https://github.com/MohamedAbuelroos/Eatery-cafe",
+
+    featured: false,
+
+    features: [
+      "Restaurant landing page",
+      "Chef showcase section",
+      "Food gallery",
+      "Reservation section",
+      "Contact forms",
+      "Testimonials",
+      "Responsive layouts",
+      "Animated interactions",
+      "Business information sections",
+      "Mobile-first design",
+    ],
+  },
+
+  {
+    id: 12,
+
+    title: "Elzero World",
+
+    slug: "elzero-world",
+
+    category: "Landing-Page",
+
+    image: "/images/projects/Elzero.png",
+
+    description:
+      "A comprehensive multi-section landing page developed during my early frontend learning journey, featuring articles, galleries, services, team members, testimonials, skills, and interactive UI components.",
+
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Font Awesome",
+      "Google Fonts",
+    ],
+
+    demo: "https://mohamedabuelroos.github.io/HTML-CSS-Template2/",
+
+    github: "https://github.com/MohamedAbuelroos/HTML-CSS-Template2",
+
+    featured: false,
+
+    features: [
+      "Multi-section landing page",
+      "Articles and blog cards",
+      "Image galleries",
+      "Team members showcase",
+      "Testimonials section",
+      "Services section",
+      "Skills progress bars",
+      "Events countdown",
+      "Responsive layouts",
+      "Interactive UI components",
     ],
   },
 ];

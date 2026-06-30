@@ -17,7 +17,6 @@ function FloatingCard() {
         py-4
         px-8
         shadow-[0_20px_40px_rgba(0,0,0,.12)]
-        backdrop-blur-xl
         hidden
         lg:block
         animate-[float_5s_ease-in-out_infinite]

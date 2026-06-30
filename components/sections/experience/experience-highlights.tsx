@@ -1,32 +1,9 @@
-import { Briefcase, Code2, Laptop, Plane } from "lucide-react";
-
-const cards = [
-  {
-    title: "Tech Background",
-    icon: Laptop,
-    text: "Hardware & software expertise",
-  },
-  {
-    title: "Travel Industry",
-    icon: Plane,
-    text: "HOPPA, KOI, Mozio, Elife",
-  },
-  {
-    title: "Frontend Developer",
-    icon: Code2,
-    text: "React, Next.js, TypeScript",
-  },
-  {
-    title: "Problem Solver",
-    icon: Briefcase,
-    text: "Building real business solutions",
-  },
-];
+import { highlightCards } from "@/data/experience";
 
 export default function ExperienceHighlights() {
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
-      {cards.map((card) => {
+      {highlightCards.map((card) => {
         const Icon = card.icon;
 
         return (
@@ -38,11 +15,11 @@ export default function ExperienceHighlights() {
               border-border/50
               bg-card/50
               p-6
-              backdrop-blur-xl
+              
               transition-all
               duration-300
               hover:-translate-y-1
-              hover:shadow-xl
+              hover:shadow-md
             "
           >
             <div

@@ -19,7 +19,7 @@ export default function ContactFooter() {
           border-border/50
           bg-card/50
           p-8
-          backdrop-blur-xl
+          
           md:flex-row
           md:justify-between
         "

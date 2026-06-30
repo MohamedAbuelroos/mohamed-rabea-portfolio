@@ -21,8 +21,6 @@ export default function ProjectCard({ project }: Props) {
         border
         border-violet-500/20
         bg-card/50
-        backdrop-blur-xl
-        
       "
     >
       <div className="grid lg:grid-cols-[50%_50%]">
@@ -66,7 +64,7 @@ export default function ProjectCard({ project }: Props) {
               )}
               <div className="relative h-[800px] md:h-[550px]">
                 <Image
-                title="Visit Project"
+                  title="Visit Project"
                   src={project.image}
                   alt={project.title}
                   fill
@@ -85,22 +83,11 @@ export default function ProjectCard({ project }: Props) {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="flex flex-col px-8 py-4 h-[800px] md:h-[550px] ">
-          <div
-            className="
-    flex-1
-    overflow-y-auto
-    p-8
-    scroll-smooth
-    scrollbar-thin
-    scrollbar-thumb-violet-500/20
-    scrollbar-track-transparent
-  "
-          >
-            {/* CATEGORY */}
-            <div className="mb-6">
-              <span
-                className="
+        <div className="flex flex-col px-8 py-6 h-[800px] md:h-[550px] ">
+          {/* CATEGORY */}
+          <div className="mb-5">
+            <span
+              className="
                 rounded-full
                 border
                 border-violet-500/30
@@ -111,32 +98,41 @@ export default function ProjectCard({ project }: Props) {
                 font-medium
                 text-violet-500
               "
-              >
-                {project.category}
-              </span>
-            </div>
+            >
+              {project.category}
+            </span>
+          </div>
 
-            {/* TITLE */}
-            <Link
-              href={project.demo || "#"}
-              target="_blank"
-              className="
+          {/* TITLE */}
+          <Link
+            href={project.demo || "#"}
+            target="_blank"
+            className="
               flex
               items-center
               gap-3
               transition-colors
               hover:text-violet-500
             "
-            >
-              <h2 className="text-4xl font-black">{project.title}</h2>
+          >
+            <h2 className="text-4xl font-black py-2">{project.title}</h2>
 
-              <ArrowUpRight size={20} />
-            </Link>
-
+            <ArrowUpRight size={20} />
+          </Link>
+          <div
+            className="
+    flex-1
+    overflow-y-auto
+    scroll-smooth
+    scrollbar-thin
+    scrollbar-thumb-violet-500/20
+    scrollbar-track-transparent
+  "
+          >
             {/* DESCRIPTION */}
             <p
               className="
-              mt-6
+              mt-4
               leading-8
               text-muted-foreground
             "
@@ -214,7 +210,7 @@ export default function ProjectCard({ project }: Props) {
     md:px-7
     font-medium
     text-white
-    transition-all
+    transition-transform
     hover:-translate-y-1
   "
             >
@@ -243,7 +239,7 @@ export default function ProjectCard({ project }: Props) {
                 px-7
                 py-4
                 font-medium
-                transition-all
+                transition-transform
                 hover:-translate-y-1
               "
             >

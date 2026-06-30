@@ -22,10 +22,11 @@ export default function ProjectsPage() {
         <ProjectsHeader
           title="All Projects"
           description="
-    A collection of projects built throughout
-    my journey as a frontend developer,
-    including web applications, dashboards,
-    booking platforms and digital experiences."
+Explore my complete portfolio of business
+applications, workflow automation tools,
+enterprise dashboards, booking systems
+and modern web experiences.
+"
         />
 
         <ProjectsFilters selected={category} onChange={setCategory} />

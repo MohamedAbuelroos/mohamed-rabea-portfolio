@@ -19,7 +19,7 @@ export default function ProjectsFilters({ selected, onChange }: Props) {
             py-2
             text-sm
             font-medium
-            transition-all
+          
             duration-300
 
             ${
