@@ -23,12 +23,14 @@ export default function ServicesHeader() {
         </span>
       </div>
 
-      <h2 className="text-4xl font-black lg:text-5xl">What I Can Build</h2>
+      <h2 className="text-4xl font-black lg:text-5xl">
+        Building Solutions Through Technology
+      </h2>
 
       <p className="mx-auto mt-6 max-w-3xl leading-8 text-muted-foreground">
-        I build modern, responsive and business-focused web applications
-        designed to provide exceptional user experiences and real business
-        value.
+        From business automation tools to enterprise dashboards and modern web
+        applications, I build digital solutions focused on performance,
+        usability and real business impact.
       </p>
     </div>
   );

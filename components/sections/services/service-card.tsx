@@ -18,13 +18,17 @@ export default function ServiceCard({ service }: Props) {
   return (
     <article
       className="
+      flex
+      flex-col
+      justify-between
         group
         rounded-lg
         border
         border-border/50
         bg-card/50
-        p-8
         
+        p-6
+        relative
         transition-all
         duration-300
         hover:-translate-y-2
@@ -49,7 +53,7 @@ export default function ServiceCard({ service }: Props) {
             shadow-lg
           "
         >
-          Most Popular
+          Popular
         </div>
       )}
 
@@ -82,7 +86,7 @@ export default function ServiceCard({ service }: Props) {
       </div>
 
       {/* title */}
-      <h3 className="text-2xl font-bold">{service.title}</h3>
+      <h3 className="text-[30px] font-bold">{service.title}</h3>
 
       {/* description */}
       <p className="mt-4 leading-7 text-muted-foreground">
