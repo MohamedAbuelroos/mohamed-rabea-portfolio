@@ -106,7 +106,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image1.png",
+        url: "/og-image-1.png",
         width: 1200,
         height: 640,
         alt: "Mohamed Rabea Portfolio",
