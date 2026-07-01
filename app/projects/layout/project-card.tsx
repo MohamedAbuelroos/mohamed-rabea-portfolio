@@ -67,6 +67,7 @@ export default function ProjectCard({ project }: Props) {
                   title="Visit Project"
                   src={project.image}
                   alt={project.title}
+                  sizes="(max-width: 1024px) 100vw, 48vw"
                   fill
                   priority={project.id <= 2}
                   className="

@@ -17,10 +17,10 @@ export default function Logo() {
       <Image
         src="/images/MR-Logo1.png"
         alt="Mohamed Rabea"
-        width={72}
-        height={70}
+        width={62}
+        height={60}
         priority
-        // className="h-auto w-[72px] shrink-0"
+        className="h-auto w-auto shrink-0"
       />
 
       {/* Divider */}

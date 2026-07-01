@@ -51,6 +51,7 @@ function HeroPreview() {
                   src={project.image}
                   alt={project.alt}
                   fill
+                  sizes="(max-width: 1024px) 100vw, 48vw"
                   priority={project.id === 1}
                   className="object-cover transition-transform duration-500 hover:scale-[1.03]"
                 />

@@ -12,6 +12,7 @@ import {
   SiJira,
   SiVite,
   SiFigma,
+  SiRedux,
 } from "react-icons/si";
 
 export const skillGroups = [
@@ -52,7 +53,7 @@ export const skillGroups = [
       },
       {
         name: "Visily",
-        icon: SiFigma, // temporary icon
+        icon: SiFigma,
       },
       {
         name: "Vite",
@@ -65,6 +66,10 @@ export const skillGroups = [
       {
         name: "Jira",
         icon: SiJira,
+      },
+      {
+        name: "Redux Toolkit",
+        icon: SiRedux,
       },
     ],
   },
