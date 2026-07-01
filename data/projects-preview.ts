@@ -1,7 +1,7 @@
 export const projectPreviews = [
   {
     id: 1,
-    image: "/images/projects/third-full-project.png",
+    image: "/images/projects/third-full-project.webp",
     alt: "Travelist Dashboard",
   },
   {
