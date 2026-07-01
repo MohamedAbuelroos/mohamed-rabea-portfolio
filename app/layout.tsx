@@ -47,22 +47,87 @@ export const metadata: Metadata = {
   title: "Mohamed Rabea | Frontend Developer & Business Solutions Builder",
 
   description:
-    "Frontend Developer specializing in React, Next.js, TypeScript, business applications, enterprise dashboards, booking platforms and workflow automation solutions.",
+    "Frontend Developer specializing in React, Next.js, TypeScript, business applications, enterprise dashboards, booking systems and workflow automation solutions.",
 
   keywords: [
     "Mohamed Rabea",
-    "Mohamed Abuelroos",
+    "Mohamed AbuElrous",
     "Frontend Developer",
     "React Developer",
-    "Next.js Developer",
+    "Next.js",
     "TypeScript",
     "Business Applications",
     "Dashboard Development",
     "Booking Systems",
     "Workflow Automation",
-    "Travel Platforms",
     "Portfolio",
   ],
+
+  authors: [
+    {
+      name: "Mohamed Rabea",
+    },
+  ],
+
+  creator: "Mohamed Rabea",
+
+  metadataBase: new URL("https://mohamed-rabea-portfolio.vercel.app"),
+
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+      },
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
+    ],
+
+    apple: "/apple-touch-icon.png",
+  },
+
+  manifest: "/site.webmanifest",
+
+  openGraph: {
+    title: "Mohamed Rabea | Frontend Developer & Business Solutions Builder",
+
+    description:
+      "Building modern web applications, dashboards, booking systems and business automation solutions.",
+
+    url: "https://mohamed-rabea-portfolio.vercel.app",
+
+    siteName: "Mohamed Rabea Portfolio",
+
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mohamed Rabea Portfolio",
+      },
+    ],
+
+    locale: "en_US",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Mohamed Rabea | Frontend Developer & Business Solutions Builder",
+
+    description:
+      "Building modern web applications, dashboards and business solutions.",
+
+    images: ["/og-image.png"],
+  },
 };
 
 function RootLayout({
