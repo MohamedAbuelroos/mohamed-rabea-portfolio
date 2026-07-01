@@ -13,6 +13,8 @@ const personSchema = {
 
   url: "https://mohamed-rabea-portfolio.vercel.app",
 
+  image: "https://mohamed-rabea-portfolio.vercel.app/og-image-1.png",
+
   jobTitle: "Frontend Developer & Business Solutions Builder",
 
   description:
@@ -44,23 +46,28 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Mohamed Rabea | Frontend Developer & Business Solutions Builder",
+  title: {
+    default: "Mohamed Rabea | Frontend Developer & Business Solutions Builder",
+
+    template: "%s | Mohamed Rabea",
+  },
 
   description:
     "Frontend Developer specializing in React, Next.js, TypeScript, business applications, enterprise dashboards, booking systems and workflow automation solutions.",
 
   keywords: [
     "Mohamed Rabea",
-    "Mohamed AbuElrous",
+    "Mohamed AbuElroos",
     "Frontend Developer",
+    "Frontend Engineer",
     "React Developer",
-    "Next.js",
+    "Next.js Developer",
     "TypeScript",
     "Business Applications",
     "Dashboard Development",
     "Booking Systems",
     "Workflow Automation",
-    "Portfolio",
+    "Business Automation Developer",
   ],
 
   authors: [
@@ -71,7 +78,20 @@ export const metadata: Metadata = {
 
   creator: "Mohamed Rabea",
 
+  applicationName: "Mohamed Rabea Portfolio",
+
+  category: "technology",
+
   metadataBase: new URL("https://mohamed-rabea-portfolio.vercel.app"),
+
+  alternates: {
+    canonical: "/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 
   icons: {
     icon: [
@@ -108,7 +128,7 @@ export const metadata: Metadata = {
       {
         url: "/og-image-1.png",
         width: 1200,
-        height: 640,
+        height: 630,
         alt: "Mohamed Rabea Portfolio",
       },
     ],
@@ -126,7 +146,7 @@ export const metadata: Metadata = {
     description:
       "Building modern web applications, dashboards and business solutions.",
 
-    images: ["/og-image.png"],
+    images: ["/og-image-1.png"],
   },
 };
 
@@ -143,6 +163,7 @@ function RootLayout({
     >
       <body className="min-h-screen bg-background font-sans antialiased">
         <ThemeProvider>{children}</ThemeProvider>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

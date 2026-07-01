@@ -10,7 +10,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/seconed-full-project.png",
+    image: "/images/projects/seconed-full-project.webp",
 
     description:
       "A comprehensive travel booking platform for Egypt tourism, featuring trip reservations, transfer booking, destination discovery, user authentication, supplier management, and a scalable dashboard ecosystem built for modern travel experiences.",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     title: "SpeedLine Transfers KSA",
     slug: "transfer-ksa",
     category: "Web-Application",
-    image: "/images/projects/first-full-project.png",
+    image: "/images/projects/first-full-project.webp",
 
     description:
       "A modern, multilingual booking platform offering seamless airport transfers, city rides, hourly chauffeur services, and VIP experiences across Saudi Arabia. With dynamic pricing, responsive design, WhatsApp integration, and a diverse fleet showcase, it delivers a reliable and professional travel experience for both local and international clients.",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
 
     category: "Tools",
 
-    image: "/images/projects/third-full-project.png",
+    image: "/images/projects/third-full-project.webp",
 
     description:
       "A comprehensive transfer operations dashboard designed for travel and transportation businesses, featuring booking management, fleet tracking, partner integrations, analytics, reporting, and operational monitoring across multiple destinations.",
@@ -147,7 +147,7 @@ export const projects: Project[] = [
 
     category: "Business-Websites",
 
-    image: "/images/projects/fourth-full-project.png",
+    image: "/images/projects/fourth-full-project.webp",
 
     description:
       "A modern corporate platform built for a leading manufacturer of premium suit covers, canvas bags, and custom branding products, featuring multilingual support, interactive product showcases, customer engagement tools, and conversion-focused user experiences.",
@@ -194,7 +194,7 @@ export const projects: Project[] = [
 
     category: "Tools",
 
-    image: "/images/projects/signs-converter.png",
+    image: "/images/projects/signs-converter.webp",
 
     description:
       "A business automation tool developed for transfer operations companies that processes Excel manifests, filters transportation data by date, and generates structured export files used to automatically create driver-specific PDF transfer signs through Excel VBA automation.",
@@ -242,7 +242,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/sixth-full-project.png",
+    image: "/images/projects/sixth-full-project.webp",
 
     description:
       "A modern developer portfolio built to showcase professional frontend projects, technical expertise, and real-world case studies through interactive experiences, smooth animations, and a performance-focused architecture.",
@@ -287,7 +287,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/fifth-full-project.png",
+    image: "/images/projects/fifth-full-project.webp",
 
     description:
       "A modern movie discovery platform built with React, featuring dynamic movie browsing, advanced search functionality, personalized favorites management, and detailed movie experiences powered by real-time entertainment data.",
@@ -330,7 +330,7 @@ export const projects: Project[] = [
 
     category: "Tools",
 
-    image: "/images/projects/confirmation-tool.jpg",
+    image: "/images/projects/confirmation-tool.webp",
 
     description:
       "A business automation platform developed for transfer companies that processes Excel manifests, displays guest transfer details, and generates personalized confirmation messages for each traveler, significantly reducing manual communication workflows.",
@@ -370,7 +370,7 @@ export const projects: Project[] = [
 
     category: "Business-Websites",
 
-    image: "/images/projects/elanod-project.png",
+    image: "/images/projects/elanod-project.webp",
 
     description:
       "A bilingual corporate website developed for a pest control and insect management company, featuring multilingual content, product showcases, equipment catalogs, and responsive business experiences tailored for commercial services.",
@@ -406,7 +406,7 @@ export const projects: Project[] = [
 
     category: "Landing-Page",
 
-    image: "/images/projects/Hexa-shop.png",
+    image: "/images/projects/Hexa-shop.webp",
 
     description:
       "A modern fashion e-commerce landing page designed for clothing brands, featuring product showcases, category exploration, promotional sections, and responsive shopping experiences.",
@@ -448,7 +448,7 @@ export const projects: Project[] = [
 
     category: "Landing-Page",
 
-    image: "/images/projects/Eatery-cafe.png",
+    image: "/images/projects/Eatery-cafe.webp",
 
     description:
       "A modern restaurant and cafe landing page featuring chef showcases, food galleries, reservation sections, and customer-focused experiences designed for hospitality businesses.",
@@ -490,7 +490,7 @@ export const projects: Project[] = [
 
     category: "Landing-Page",
 
-    image: "/images/projects/Elzero.png",
+    image: "/images/projects/Elzero.webp",
 
     description:
       "A comprehensive multi-section landing page developed during my early frontend learning journey, featuring articles, galleries, services, team members, testimonials, skills, and interactive UI components.",

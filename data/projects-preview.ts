@@ -6,17 +6,17 @@ export const projectPreviews = [
   },
   {
     id: 2,
-    image: "/images/projects/speedline.png",
+    image: "/images/projects/speedline.webp",
     alt: "Transfer KSA",
   },
   {
     id: 3,
-    image: "/images/projects/toursvibe.png",
+    image: "/images/projects/toursvibe.webp",
     alt: "ToursVibe",
   },
   {
     id: 4,
-    image: "/images/projects/workSpaceSetUp.jpeg",
+    image: "/images/projects/workSpaceSetUp.webp",
     alt: "Workspace",
   },
 ];
