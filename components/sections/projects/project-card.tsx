@@ -51,18 +51,22 @@ function ProjectCard({ project }: Props) {
 
       {/* Screenshot */}
       <div className="relative h-[580px] overflow-hidden">
-        <Link href={`/projects?id=${project.slug}`} className="block">
+        <Link
+          href={`/projects?id=${project.slug}`}
+          className="relative block h-full"
+        >
           <Image
             src={project.image}
             alt={project.title}
             fill
+            sizes="(max-width: 768px) 100vw"
             className="
-            object-cover
-            object-top
-            transition-transform
-            duration-700
-            group-hover:scale-[1.03]
-          "
+        object-cover
+        object-top
+        transition-transform
+        duration-700
+        group-hover:scale-[1.03]
+      "
           />
 
           {/* Hover Gradient */}

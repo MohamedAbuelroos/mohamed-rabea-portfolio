@@ -43,6 +43,7 @@ function AboutPreview() {
           src="/images/Me-1.png"
           alt="Mohamed Rabea"
           fill
+          sizes="(max-width: 768px) 100vw, 50vw"
           className="
             object-cover
             transition-transform

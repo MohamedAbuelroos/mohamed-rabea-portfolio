@@ -10,7 +10,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/seconed-full-project.webp",
+    image: "/images/projects/toursvipe-full.webp",
 
     description:
       "A comprehensive travel booking platform for Egypt tourism, featuring trip reservations, transfer booking, destination discovery, user authentication, supplier management, and a scalable dashboard ecosystem built for modern travel experiences.",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     title: "SpeedLine Transfers KSA",
     slug: "transfer-ksa",
     category: "Web-Application",
-    image: "/images/projects/first-full-project.webp",
+    image: "/images/projects/speedline-full.webp",
 
     description:
       "A modern, multilingual booking platform offering seamless airport transfers, city rides, hourly chauffeur services, and VIP experiences across Saudi Arabia. With dynamic pricing, responsive design, WhatsApp integration, and a diverse fleet showcase, it delivers a reliable and professional travel experience for both local and international clients.",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
 
     category: "Tools",
 
-    image: "/images/projects/third-full-project.webp",
+    image: "/images/projects/dashboard-full.webp",
 
     description:
       "A comprehensive transfer operations dashboard designed for travel and transportation businesses, featuring booking management, fleet tracking, partner integrations, analytics, reporting, and operational monitoring across multiple destinations.",
@@ -147,7 +147,7 @@ export const projects: Project[] = [
 
     category: "Business-Websites",
 
-    image: "/images/projects/fourth-full-project.webp",
+    image: "/images/projects/clarity-full.webp",
 
     description:
       "A modern corporate platform built for a leading manufacturer of premium suit covers, canvas bags, and custom branding products, featuring multilingual support, interactive product showcases, customer engagement tools, and conversion-focused user experiences.",
@@ -242,7 +242,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/sixth-full-project.webp",
+    image: "/images/projects/portfolio-full.webp",
 
     description:
       "A modern developer portfolio built to showcase professional frontend projects, technical expertise, and real-world case studies through interactive experiences, smooth animations, and a performance-focused architecture.",
@@ -287,7 +287,7 @@ export const projects: Project[] = [
 
     category: "Web-Application",
 
-    image: "/images/projects/fifth-full-project.webp",
+    image: "/images/projects/movie-app-full.webp",
 
     description:
       "A modern movie discovery platform built with React, featuring dynamic movie browsing, advanced search functionality, personalized favorites management, and detailed movie experiences powered by real-time entertainment data.",
