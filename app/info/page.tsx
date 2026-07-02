@@ -20,7 +20,6 @@ export default function InfoPage() {
 "
     >
       <div className="w-full max-w-2xl">
-  
         {/* Main Card */}
         <motion.div
           className="
@@ -77,45 +76,129 @@ export default function InfoPage() {
               duration: 0.6,
               delay: 0.3,
             }}
-            className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2"
+            className="mt-12 space-y-4"
           >
-            {infoLinks.map((item) => {
-              const Icon = item.icon;
+            {/* Featured Card */}
+            {infoLinks
+              .filter((item) => item.featured)
+              .map((item) => {
+                const Icon = item.icon;
 
-              return (
-                <Link
-                  key={item.title}
-                  href={item.href}
-                  target={item.external ? "_blank" : undefined}
-                  className={`
-          group
-          flex
-          items-center
-          gap-4
-          rounded-md
-          border
-          p-5
-          transition-all
-          hover:-translate-y-1
-          hover:border-violet-500
+                return (
+                  <Link
+                    key={item.title}
+                    href={item.href}
+                    className="
+            group
+            flex
+            items-center
+            gap-5
+            rounded-md
+            border
+            border-violet-500/30
+            bg-violet-500/[0.03]
+            p-6
+            shadow-lg
+            shadow-violet-500/5
+            transition-all
+            hover:-translate-y-1
+            hover:border-violet-500
+            hover:shadow-violet-500/20
+          "
+                  >
+                    <div className="rounded-xl bg-violet-500/10 p-4">
+                      <Icon size={28} className="text-violet-500" />
+                    </div>
 
-          ${item.featured ? "w-full" : ""}
-        `}
-                >
-                  <div className="rounded-xl bg-violet-500/10 p-3">
-                    <Icon size={24} className="text-violet-500" />
-                  </div>
+                    <div>
+                      <p className="text-lg font-bold">{item.title}</p>
 
-                  <div>
-                    <p className="font-bold">{item.title}</p>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {item.subtitle}
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
 
-                    <p className="text-sm text-muted-foreground">
-                      {item.subtitle}
-                    </p>
-                  </div>
-                </Link>
-              );
-            })}
+            {/* WhatsApp + Call */}
+            <div className="grid gap-4 sm:grid-cols-2">
+              {infoLinks
+                .filter((item) => !item.featured && item.title !== "Email")
+                .map((item) => {
+                  const Icon = item.icon;
+
+                  return (
+                    <Link
+                      key={item.title}
+                      href={item.href}
+                      target={item.external ? "_blank" : undefined}
+                      className="
+              group
+              flex
+              items-center
+              gap-4
+              rounded-md
+              border
+              p-5
+              transition-all
+              hover:-translate-y-1
+              hover:border-violet-500
+            "
+                    >
+                      <div className="rounded-xl bg-violet-500/10 p-3">
+                        <Icon size={24} className="text-violet-500" />
+                      </div>
+
+                      <div>
+                        <p className="font-bold">{item.title}</p>
+
+                        <p className="text-sm text-muted-foreground">
+                          {item.subtitle}
+                        </p>
+                      </div>
+                    </Link>
+                  );
+                })}
+            </div>
+
+            {/* Email */}
+            {infoLinks
+              .filter((item) => item.title === "Email")
+              .map((item) => {
+                const Icon = item.icon;
+
+                return (
+                  <Link
+                    key={item.title}
+                    href={item.href}
+                    className="
+            group
+            flex
+            items-center
+            gap-4
+            rounded-md
+            border
+            p-5
+            transition-all
+            hover:-translate-y-1
+            hover:border-violet-500
+          "
+                  >
+                    <div className="rounded-xl bg-violet-500/10 p-3">
+                      <Icon size={24} className="text-violet-500" />
+                    </div>
+
+                    <div>
+                      <p className="font-bold">{item.title}</p>
+
+                      <p className="text-sm text-muted-foreground">
+                        {item.subtitle}
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
           </motion.div>
 
           {/* Stats */}

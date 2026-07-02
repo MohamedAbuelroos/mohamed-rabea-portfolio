@@ -52,7 +52,7 @@ export default function ContactCard({ type, title, description }: Props) {
 
       <div className="mt-8">
         <Link
-          href={isWhatsapp ? "https://wa.me/YOUR_NUMBER" : "mailto:YOUR_EMAIL"}
+          href={isWhatsapp ? "https://wa.me/201022225621" : "mailto:YOUR_EMAIL"}
           target="_blank"
           className="
             inline-flex
