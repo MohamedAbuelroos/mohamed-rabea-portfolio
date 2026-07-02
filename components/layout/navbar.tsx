@@ -54,8 +54,7 @@ function Navbar() {
 
           <a
             title="Download CV"
-            href="/resume.pdf"
-            download
+            href="/resume/Mohamed-Rabea-CV.pdf"
             className=" hidden lg:inline-flex  h-10 items-center gap-2 rounded-md border border-border bg-card px-5 text-sm font-medium  duration-200 hover:-translate-y-0.5 hover:shadow-lg "
           >
             <Download size={16} />
