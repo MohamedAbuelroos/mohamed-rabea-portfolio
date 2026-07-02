@@ -1,15 +1,13 @@
-// data/info-links.ts
-
-import { Briefcase, Mail, Phone } from "lucide-react";
+import { Mail, Phone, Sparkles } from "lucide-react";
 
 import { FaWhatsapp } from "react-icons/fa";
 
 export const infoLinks = [
   {
-    title: "Portfolio",
-    subtitle: "View projects & experience",
+    title: "Enter My World",
+    subtitle: "Explore my projects, experience and digital journey",
     href: "/",
-    icon: Briefcase,
+    icon: Sparkles,
     featured: true,
   },
 
